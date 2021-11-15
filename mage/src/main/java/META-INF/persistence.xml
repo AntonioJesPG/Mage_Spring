@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="mage">
+		<class>com.project.mage.model.Categoria</class>
+		<class>com.project.mage.model.Categoriaproducto</class>
+		<class>com.project.mage.model.Cesta</class>
+		<class>com.project.mage.model.Imagenesproducto</class>
+		<class>com.project.mage.model.Lineacesta</class>
+		<class>com.project.mage.model.Lineapedido</class>
+		<class>com.project.mage.model.Pedido</class>
+		<class>com.project.mage.model.Producto</class>
+		<class>com.project.mage.model.Requisitosproducto</class>
+		<class>com.project.mage.model.Review</class>
+		<class>com.project.mage.model.Rol</class>
+		<class>com.project.mage.model.Rolusuario</class>
+		<class>com.project.mage.model.Ticketusuario</class>
+		<class>com.project.mage.model.Tipoticket</class>
+		<class>com.project.mage.model.Usuario</class>
+	</persistence-unit>
+</persistence>
